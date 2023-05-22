@@ -1,0 +1,3 @@
+[Mon Nov 08 15:09:47.482980 2021] [core:alert] [pid 86023] [client 2a01:110f:1507:db00:d521:c927:ba9b:92ba:0] /usr/home/pluginysm/domains/janpe.ovh/public_html/.htaccess: <Directory not allowed here
+[Mon Nov 08 15:10:12.984905 2021] [core:alert] [pid 45819] [client 2a01:110f:1507:db00:d521:c927:ba9b:92ba:0] /usr/home/pluginysm/domains/janpe.ovh/public_html/.htaccess: <Directory not allowed here
+[Mon Nov 08 15:10:15.442427 2021] [core:alert] [pid 46154] [client 2a01:110f:1507:db00:d521:c927:ba9b:92ba:0] /usr/home/pluginysm/domains/janpe.ovh/public_html/.htaccess: <Directory not allowed here

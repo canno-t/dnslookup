@@ -1,0 +1,19 @@
+#AuthType Basic
+#AuthName "Authentication Required"
+#AuthUserFile /usr/home/pluginysm/domains/janpe.ovh/public_html/.htpasswd
+#Require valid-user
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?q=$1 [NC,L,QSA]
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile /usr/home/pluginysm/domains/janpe.ovh/.htpasswd
+Require valid-user
+#ErrorDocument 404 /404error.php
+#order deny,allow
+#deny from all
+#allow 31.61.173.189
+</IfModule>
